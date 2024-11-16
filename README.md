@@ -25,3 +25,15 @@ print(f"[{os.getpid()}] Initializing process group with: {env_dict}")
 dist.init_process_group(backend="NCCL", timeout=datetime.timedelta(seconds=30)) # gloo
 global_rank = int(os.environ["RANK"])
 ```
+
+## ElasticPipe
+判断是否进行Elastic，并返回弹性策略
+```def is_Transfer(iter)```
+
+```def __send_update(self,index)```
+
+```def send_weight(self,S_R_Pair)```
+
+```def __recv_update(self,model,index)```
+
+```def recv_weight(self,model,S_R_Pair)```
