@@ -14,6 +14,8 @@
 ```class Block(nn.Module)```
 
 ## Communication 
+```class CommunicationHandler(object)```
+
 ```
 env_dict = {
         key: os.environ[key]
