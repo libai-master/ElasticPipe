@@ -28,6 +28,7 @@ global_rank = int(os.environ["RANK"])
 
 ## ElasticPipe
 判断是否进行Elastic，并返回弹性策略
+
 ```def is_Transfer(iter)```
 
 ```def __send_update(self,index)```
