@@ -14,7 +14,7 @@
 ```class Block(nn.Module)```
 
 ## Communication 
-env_dict = {
+```env_dict = {
         key: os.environ[key]
         for key in ("MASTER_ADDR", "MASTER_PORT", "WORLD_SIZE", "LOCAL_WORLD_SIZE")
     }
